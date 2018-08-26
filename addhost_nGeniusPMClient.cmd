@@ -12,5 +12,11 @@ ECHO %NEWLINE%%NEWLINE%^192.168.38.60		jkt-iris-01>>%WINDIR%\system32\drivers\et
 #ECHO %NEWLINE%%NEWLINE%^>>%WINDIR%\system32\drivers\etc\hosts
 
 
-
 attrib +r %WINDIR%\system32\drivers\etc\hosts   
+
+
+@CLS
+@ECHO         Adding hostfile for nGenius PM Client
+@ECHO       			  Hostfile Added
+@ECHO ~~~~~~~~~~~~~~~~~~ Program Finished ~~~~~~~~~~~~~~~~~~
+@PAUSE
